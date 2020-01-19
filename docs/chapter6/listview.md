@@ -94,7 +94,7 @@ ListView.builder(
 
 `ListView.separated`可以在生成的列表项之间添加一个分割组件，它比`ListView.builder`多了一个`separatorBuilder`参数，该参数是一个分割组件生成器。
 
-下面我们看一个例子：奇数行添加一条蓝色下划线，偶数行添加一条绿色下划线。
+下面我们看一个例子：偶数行添加一条蓝色下划线，奇数行添加一条绿色下划线。
 
 ```dart
 class ListView3 extends StatelessWidget {
